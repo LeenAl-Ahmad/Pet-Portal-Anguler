@@ -1,0 +1,25 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.link {
+  color: white;
+}
+
+.link:visited, .link:active {
+  color: white;
+}
+
+header {
+  background-color: #eee;
+}
+
+main {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+footer {
+  padding: 16px;
+  background-color: #eee;
+}
