@@ -1,0 +1,18 @@
+<header>
+  <mat-toolbar>
+    <span>Pet Portal</span>
+    <span class="spacer"></span>
+    <a routerLink="/" class="link" style="margin-right: 16px;">Index</a>
+    <a routerLink="/pets"class="link" style="margin-right: 16px;">Pets</a>
+    <a routerLink="/owners" class="link">Owners</a>
+  </mat-toolbar>
+</header>
+
+<main>
+  <router-outlet />
+</main>
+
+<footer>
+  <span style="margin-right: 16px;">Lean Al Ahmad</span>
+  <span>{{date}}</span>
+</footer>
