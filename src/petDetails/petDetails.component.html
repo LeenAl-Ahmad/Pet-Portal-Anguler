@@ -1,0 +1,9 @@
+<div class="pet-details-container">
+  <img height="300px" [src]="['http://localhost:8080/images/pets/' + pet.image]" />
+  <div>
+    <div class="pet-detail"><b>Name: </b> {{ pet.name }}</div>
+    <div class="pet-detail"><b>Kind: </b> {{ pet.petKind }}</div>
+    <div class="pet-detail"><b>Age: </b> {{ pet.age }}</div>
+    <div class="pet-detail"><b>Owner: </b> <a [routerLink]="['/owners', pet.ownerId]" class="link">Owner details</a></div>
+  </div>
+</div>
