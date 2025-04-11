@@ -1,0 +1,17 @@
+.owner-details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.owner-detail {
+  padding-bottom: 16px;
+}
+
+.link {
+  color: white;
+}
+
+.link:visited, .link:active {
+  color: white;
+}

@@ -3,10 +3,12 @@ import { IndexComponent } from '../index/index.component';
 import { PetsComponent } from '../pets/pets.component';
 import { PetDetailsComponent } from '../petDetails/petDetails.component';
 import { OwnersComponent } from '../owners/owners.component';
+import { OwnerDetailsComponent } from '../ownerDetails/ownerDetails.component';
 
 export const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'pets', component: PetsComponent },
   { path: 'pets/:id', component: PetDetailsComponent },
-  { path: 'owners', component: OwnersComponent }
+  { path: 'owners', component: OwnersComponent },
+  { path: 'owners/:id', component: OwnerDetailsComponent }
 ];
